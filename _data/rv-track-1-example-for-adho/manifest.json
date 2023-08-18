@@ -1,0 +1,40 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "RV Track 1 - Example for ADHO" ] },
+    "provider": [
+      {
+        "id": "https://archive.org",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 144.0,
+        "items": [
+          {
+            "id": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia802709.us.archive.org/2/items/rv-track-1/RV_Track%201.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 144.0
+                },
+                "target": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
