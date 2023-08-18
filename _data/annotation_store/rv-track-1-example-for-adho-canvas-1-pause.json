@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://egrguric.github.io/demo-5/annotations/rv-track-1-example-for-adho-canvas-1-pause.json",
+  "type": "AnnotationPage",
+  "label": "Pause",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "rv-track-1-example-for-adho-canvas-1-pause-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Speaker pauses",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "8.0,9.0"
+        }
+      }
+    }
+  ]
+}

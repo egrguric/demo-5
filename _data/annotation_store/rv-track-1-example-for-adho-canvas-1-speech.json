@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://egrguric.github.io/demo-5/annotations/rv-track-1-example-for-adho-canvas-1-speech.json",
+  "type": "AnnotationPage",
+  "label": "Speech",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "rv-track-1-example-for-adho-canvas-1-speech-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Gertrude Stein speaking",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://egrguric.github.io/demo-5/rv-track-1-example-for-adho/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.0,8.0"
+        }
+      }
+    }
+  ]
+}
